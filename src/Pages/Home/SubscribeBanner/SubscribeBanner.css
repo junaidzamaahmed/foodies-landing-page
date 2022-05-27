@@ -6,7 +6,7 @@
     margin-left: -15vh;
 }
 .subscribe-input {
-    width: 50%;
+    width: 50% !important;
 }
 @media screen and (max-width:1080px) {
     .subscribe-button{
@@ -15,6 +15,6 @@
         margin-left: -12vh;
     }
     .subscribe-input{
-        width: 80%;
+        width: 80% !important;
     }
 }
