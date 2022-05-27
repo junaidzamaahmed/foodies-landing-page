@@ -6,7 +6,7 @@ import pasta from "../../../images/item-1.png";
 
 const PackageMenu = () => {
   return (
-    <div className="package-menu-banner text-center">
+    <div className="package-menu-banner text-center pb-5">
       <h1 className="grand-hotel-font banner-heading primary-colour">
         Package Menu
       </h1>
