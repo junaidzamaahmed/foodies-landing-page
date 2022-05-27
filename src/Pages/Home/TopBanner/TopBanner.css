@@ -1,0 +1,11 @@
+.top-banner {
+    margin-top: -21vh;
+    background: linear-gradient(0deg, rgb(255, 0, 0, 0.7), rgb(255, 0, 0, 0.7)), url("../../../images/bg-1.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-banner-heading{
+    margin-top: 22vh;
+    font-size: 20rem;
+}

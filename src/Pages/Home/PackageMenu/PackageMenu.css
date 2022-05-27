@@ -1,0 +1,15 @@
+.package-menu-banner{
+            background-color: #eee6cc;
+            height: 100vh;
+}
+.package-menu-card{
+    background-color: #faf5e4;
+    border-radius: 3%;
+}
+.package-menu-card-img{
+    margin: 5rem;
+    height: 7rem;
+}
+.package-menu-card-title{
+    font-size: 3.5rem;
+}

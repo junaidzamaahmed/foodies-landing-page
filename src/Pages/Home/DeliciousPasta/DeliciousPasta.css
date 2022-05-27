@@ -1,0 +1,10 @@
+.delicious-pasta-left{
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.4)), url("../../../images/bg-4.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.delicious-pasta-right{
+    height: 100vh;
+    background-color: #faf5e4;
+}
