@@ -1,7 +1,12 @@
 .ourmenu-banner{
     background-color: #eee6cc ;
-    height: 100vh;
+    min-height: 100vh;
 }
 .menu-item-heading{
     font-size: 4.5rem;
+}
+@media screen and (max-width:1080px) {
+    .menu-item-heading {
+        font-size: 3rem;
+    }
 }

@@ -10,7 +10,7 @@ const PackageMenu = () => {
       <h1 className="grand-hotel-font banner-heading primary-colour">
         Package Menu
       </h1>
-      <p className="fs-2">
+      <p className="fs-secondary">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vi
         <br />
         vamus lacinia odio vitae vestibulum vestibulum.
@@ -24,7 +24,7 @@ const PackageMenu = () => {
                 <h5 class="package-menu-card-title grand-hotel-font primary-colour">
                   Pasta + Ice Tea
                 </h5>
-                <p class="card-text mx-3 fs-4 mb-3">
+                <p class="card-text mx-3 fs-tertiary mb-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <button
@@ -43,7 +43,7 @@ const PackageMenu = () => {
                 <h5 class="package-menu-card-title grand-hotel-font primary-colour">
                   Carbonara & Pasta
                 </h5>
-                <p class="card-text mx-3 fs-4 mb-3">
+                <p class="card-text mx-3 fs-tertiary mb-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <button
@@ -62,7 +62,7 @@ const PackageMenu = () => {
                 <h5 class="package-menu-card-title grand-hotel-font primary-colour">
                   Mie Ayam Pangsit
                 </h5>
-                <p class="card-text mx-3 fs-4 mb-3">
+                <p class="card-text mx-3 fs-tertiary mb-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
                 <button

@@ -1,6 +1,6 @@
 .our-statistic-banner{
     background: linear-gradient(0deg, rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.7)), url("../../../images/bg-3.png");
-    height: 100vh;
+    min-height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,4 +13,12 @@
 .border-dotted{
     border: 7px dashed !important; 
     border-radius: 50%;
+}
+@media screen and (max-width:1080px) {
+    .stats-heading {
+        font-size: 2rem;
+    }
+    .stats-item {
+        padding: 8vh 10vh;
+    }
 }

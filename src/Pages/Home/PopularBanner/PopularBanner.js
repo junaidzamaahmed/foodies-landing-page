@@ -6,11 +6,11 @@ import BeefPastaImg from "../../../images/beef-pasta.png";
 
 const PopularBanner = () => {
   return (
-    <div className="popular-banner text-center">
+    <div className="popular-banner text-center pb-5">
       <h1 className="grand-hotel-font banner-heading primary-colour">
         Popular
       </h1>
-      <p className="fs-2">
+      <p className="fs-secondary">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vi
         <br />
         vamus lacinia odio vitae vestibulum vestibulum.
@@ -28,7 +28,7 @@ const PopularBanner = () => {
                 <h5 class="card-title grand-hotel-font items-heading primary-colour">
                   Spicy Pasta
                 </h5>
-                <p class="card-text fs-4 px-5">
+                <p class="card-text fs-tertiary">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
@@ -45,7 +45,7 @@ const PopularBanner = () => {
                 <h5 class="card-title grand-hotel-font items-heading primary-colour">
                   Vegetable Pasta
                 </h5>
-                <p class="card-text fs-4 px-5">
+                <p class="card-text fs-tertiary">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>
@@ -62,7 +62,7 @@ const PopularBanner = () => {
                 <h5 class="card-title grand-hotel-font items-heading primary-colour">
                   Beef Pasta
                 </h5>
-                <p class="card-text fs-4 px-5">
+                <p class="card-text fs-tertiary">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
               </div>

@@ -1,6 +1,6 @@
 .package-menu-banner{
             background-color: #eee6cc;
-            height: 100vh;
+            min-height: 100vh;
 }
 .package-menu-card{
     background-color: #faf5e4;
@@ -12,4 +12,9 @@
 }
 .package-menu-card-title{
     font-size: 3.5rem;
+}
+@media screen and (max-width:1080px) {
+    .package-menu-card-title {
+            font-size: 2.5rem;
+        }
 }

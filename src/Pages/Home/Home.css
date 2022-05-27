@@ -2,3 +2,8 @@
     font-size: 8rem;
     padding-top: 5rem;
 }
+@media screen and (max-width:1080px) {
+    .banner-heading{
+        font-size: 3rem;
+    }
+}

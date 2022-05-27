@@ -3,9 +3,9 @@ import "./OurStatistic.css";
 
 const OurStatistic = () => {
   return (
-    <div className="our-statistic-banner text-center text-light">
+    <div className="our-statistic-banner text-center text-light pb-5">
       <h1 className="grand-hotel-font banner-heading">Our Statistic</h1>
-      <p className="fs-2">
+      <p className="fs-secondary">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vi
         <br />
         vamus lacinia odio vitae vestibulum vestibulum.

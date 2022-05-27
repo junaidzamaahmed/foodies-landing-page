@@ -1,6 +1,6 @@
 .popular-banner{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../../../images/bg-2.png");
-    height: 100vh;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,4 +10,13 @@
 .item-image{
     height: 35vh;
     width: 35vh !important;
+}
+@media screen and (max-width:1080px) {
+    .items-heading{
+        font-size: 2rem;
+    }
+    .item-image{
+        height: 20vh;
+        width: 20vh !important;
+    }
 }

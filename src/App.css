@@ -11,3 +11,23 @@
 .primary-background{
     background-color: #e8565e !important;
 }
+.fs-secondary {
+    font-size: 2rem;
+}
+
+.fs-tertiary {
+    font-size: 1.5rem;
+}
+@media screen and (max-width:1080px) {
+    .main-button {
+        padding: 1rem 2rem !important;
+
+    }
+        .fs-secondary {
+            font-size: 1.2rem !important;
+        }
+    
+        .fs-tertiary {
+            font-size: 1rem;
+        }
+}

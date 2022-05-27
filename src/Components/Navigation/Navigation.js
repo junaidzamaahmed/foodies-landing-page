@@ -9,37 +9,37 @@ const Navigation = () => {
     <nav className="">
       <div className="d-flex justify-content-center py-5">
         <Link to="/home">
-          <img className="logo" src={logo} alt="" />
+          <img className="logo " src={logo} alt="" />
         </Link>
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center flex-wrap">
         <NavLink
           to="/home"
-          className="me-5 nav-item text-light text-decoration-none fs-5"
+          className="me-4 nav-item text-light text-decoration-none"
         >
           Home
         </NavLink>
         <NavLink
           to="/product"
-          className="me-5 nav-item text-light text-decoration-none fs-5"
+          className="me-4 nav-item text-light text-decoration-none"
         >
           Product
         </NavLink>
         <NavLink
           to="/promo"
-          className="me-5 nav-item text-light text-decoration-none fs-5"
+          className="me-4 nav-item text-light text-decoration-none"
         >
           Promo
         </NavLink>
         <NavLink
           to="/about"
-          className="me-5 nav-item text-light text-decoration-none fs-5"
+          className="me-4 nav-item text-light text-decoration-none"
         >
           About
         </NavLink>
         <NavLink
           to="/contact"
-          className="nav-item text-light text-decoration-none fs-5"
+          className="nav-item text-light text-decoration-none"
         >
           Contact
         </NavLink>
